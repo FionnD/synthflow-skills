@@ -7,27 +7,27 @@ Agent skills for [Synthflow](https://synthflow.ai) — the platform for building
 ### Option 1: npx skills (works with all agents)
 
 ```bash
-npx skills add synthflow-ai/skills
+npx skills add FionnD/synthflow-skills
 ```
 
 Install specific skills:
 
 ```bash
-npx skills add synthflow-ai/skills --skill create-assistant
-npx skills add synthflow-ai/skills --skill create-call
+npx skills add FionnD/synthflow-skills --skill create-assistant
+npx skills add FionnD/synthflow-skills --skill create-call
 ```
 
 Install for a specific agent:
 
 ```bash
-npx skills add synthflow-ai/skills -a claude-code
-npx skills add synthflow-ai/skills -a cursor
+npx skills add FionnD/synthflow-skills -a claude-code
+npx skills add FionnD/synthflow-skills -a cursor
 ```
 
 ### Option 2: Claude Code Plugin (native integration)
 
 ```
-/plugin marketplace add synthflow-ai/skills
+/plugin marketplace add FionnD/synthflow-skills
 /plugin install synthflow-voice-ai@synthflow-skills
 ```
 
