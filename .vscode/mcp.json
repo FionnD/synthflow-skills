@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "synthflow-docs": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://docs.synthflow.ai/_mcp/server"]
+    }
+  }
+}
